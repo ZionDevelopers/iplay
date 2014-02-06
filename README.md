@@ -32,7 +32,7 @@ Just download this addon by clicking on Download ZIP and extract the addon in ``
 * ¹ Pause support: If you want pause a video, just stay way from the player to play just come near iPlay.
 * ¹ Volume support: If you think the video volume is too high, just go on iPlay Settings and turn it down.
 
-**¹** _Providers with volume change and proximity support._
+**¹** _Providers with volume change, pause and proximity support._
 
 ### Workshop Ready!
 
