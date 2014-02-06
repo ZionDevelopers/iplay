@@ -1,0 +1,11 @@
+/* CSS Document */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #000000;
+  overflow: hidden;
+  background-image:url(../img/Background.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+}
