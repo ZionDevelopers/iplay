@@ -1,6 +1,6 @@
 iPlay
 ========================
-iPlay is an under development [Garry's Mod][] addon which you can play videos from 13 different providers (like youtube, twitch.tv and various others) with players on a [Garry's Mod][] server.
+iPlay is an under development [Garry's Mod][] addon which you can play videos from 13 different providers with players on a [Garry's Mod][] server.
 
 ### Setup
 
