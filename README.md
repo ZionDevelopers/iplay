@@ -51,7 +51,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US.
 
 [Garry's Mod]: <http://garrysmod.com/>
-[workshop]: <http://steamcommunity.com/sharedfiles/filedetails/?id=XXXX>
+[workshop]: <http://steamcommunity.com/sharedfiles/filedetails/?id=225049978>
 [ULX]: <https://github.com/Nayruden/Ulysses>
 [Evolve]: <https://github.com/Xandaros/evolve>
 [Exsto]: <https://github.com/prefanatic/exsto>
