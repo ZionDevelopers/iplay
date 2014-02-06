@@ -6,6 +6,6 @@ body {
   background: #000000;
   overflow: hidden;
   background-image:url(../img/Background.jpg);
-  background-position:center;
+  background-position:top center;
   background-repeat:no-repeat;
 }
