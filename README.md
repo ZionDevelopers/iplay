@@ -8,31 +8,31 @@ Just download this addon by clicking on Download ZIP and extract the addon in ``
 
 ### Providers
 
-* YouTube **¹**
-* Vimeo **¹**
+* YouTube **&#42;**
+* Vimeo **&#42;**
 * Hulu
 * Justin.TV
-* LiveStream **¹**
-* Shoutcast **¹**
+* LiveStream **&#42;**
+* Shoutcast **&#42;**
 * Twitch.TV
-* FLV/MP4/AAC **¹**
+* FLV/MP4/AAC **&#42;**
 * Image
-* MP3 **¹**
-* RTMP Steaming video/music/radio **¹**
+* MP3 **&#42;**
+* RTMP Steaming video/music/radio **&#42;**
 * Non-Browsable WebPage
 * Flash
 
 ### Features
 * Providers: Play videos from 13 different media providers.
 * iPlay Access: iPlay support inheritance permissions. [ULX][], [Evolve][] or [Exsto][].
-* ¹ Proximity support: Only play videos near you, So videos far from you will not be played.
+* **&#42;** Proximity support: Only play videos near you, So videos far from you will not be played.
 * Bookmarks: Play videos from your personal bookmark, that you can add, edit and delete URLs.
 * Navigator: Browse youtube and other providers to choose easily which video you want to play.
 * Chat Commands: If anybody post a video URL, type: !iplayqueue to play that video or !iplay URL.
-* ¹ Pause support: If you want pause a video, just stay way from the player to play just come near iPlay.
-* ¹ Volume support: If you think the video volume is too high, just go on iPlay Settings and turn it down.
+* **&#42;** Pause support: If you want pause a video, just stay way from the player to play just come near iPlay.
+* **&#42;** Volume support: If you think the video volume is too high, just go on iPlay Settings and turn it down.
 
-**¹** _Providers with volume change, pause and proximity support._
+**&#42;** _Providers with volume change, pause and proximity support._
 
 ### Workshop Ready!
 
