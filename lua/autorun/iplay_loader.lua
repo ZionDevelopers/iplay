@@ -26,7 +26,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 local started = os.clock()
 
 iPlay = {}
-iPlay.version = "0.0.0.3"
+iPlay.version = "0.0.0.4"
 iPlay.updatedOn = os.date( "%y-%m-%d %I:%M:%S %p", file.Time( "autorun/iplay_loader.lua", "LUA" ) )
 iPlay.loadingAddon = true
 
