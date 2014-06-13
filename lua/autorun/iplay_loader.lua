@@ -26,12 +26,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 local started = os.clock()
 
 iPlay = {}
-iPlay.version = "0.0.0.2"
+iPlay.version = "0.0.0.3"
 iPlay.updatedOn = os.date( "%y-%m-%d %I:%M:%S %p", file.Time( "autorun/iplay_loader.lua", "LUA" ) )
 iPlay.loadingAddon = true
 
 if SERVER then
   AddCSLuaFile()
+  AddCSLuaFile("iplay/shared/library.lua")
 end
 
 -- "Stole" from wiremod
@@ -57,7 +58,7 @@ Msg( "||  Loading...                      ||\n" )
 iPlay.loading(" Autorun")
 
 -- Require loader
-include ("iplay/shared/loader.lua")
+iPlay.lib("loader", "sh")
 
 Msg( "||  Loaded in "..math.Round(os.clock() - started, 2) .. " seconds!         ||\n" )
 Msg( "\\====================================/\n\n" )

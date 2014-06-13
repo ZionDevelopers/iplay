@@ -23,8 +23,6 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
 ]]--
 
-AddCSLuaFile()
-
 -- Upper Case First
 ---@param string str
 ---@return string
