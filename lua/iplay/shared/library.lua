@@ -25,6 +25,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 
 AddCSLuaFile()
 
+-- Upper Case First
+---@param string str
+---@return string
+function string:ucf()
+    return self:gsub("^%l", string.upper)
+end
+
 -- Loading Log
 ---@param string text
 ---@return void
@@ -69,13 +76,13 @@ iPlay.lib = function(filename, mode)
       -- If SERVER
       if SERVER then   
         -- Loading log
-        iPlay.loading(" "..filename)     
+        iPlay.loading(" "..filename:ucf())     
         -- Require file
         include (filepath)
       end
     elseif mode == "sh" then
       -- Loading log
-      iPlay.loading(" "..filename)  
+      iPlay.loading(" "..filename:ucf())  
       -- If SERVER
       if SERVER then
         -- Send lua to the Client
@@ -87,7 +94,7 @@ iPlay.lib = function(filename, mode)
     elseif mode == "cl" then
       if CLIENT then
         -- Loading log
-        iPlay.loading(" "..filename)  
+        iPlay.loading(" "..filename:ucf())  
         include (filepath)
       end
     else

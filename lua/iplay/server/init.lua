@@ -1,18 +1,18 @@
 --[[
 
- /$$ /$$$$$$$  /$$                    
-|__/| $$__  $$| $$                    
- /$$| $$  \ $$| $$  /$$$$$$  /$$   /$$
+/$$ /$$$$$$$  /$$
+|__/| $$__  $$| $$
+/$$| $$  \ $$| $$  /$$$$$$  /$$   /$$
 | $$| $$$$$$$/| $$ |____  $$| $$  | $$
 | $$| $$____/ | $$  /$$$$$$$| $$  | $$
 | $$| $$      | $$ /$$__  $$| $$  | $$
 | $$| $$      | $$|  $$$$$$$|  $$$$$$$
 |__/|__/      |__/ \_______/ \____  $$
-                             /$$  | $$
-                            |  $$$$$$/
-                             \______/ 
+/$$  | $$
+|  $$$$$$/
+\______/
 
-The next generation of Garry's Mod video player addon! 
+The next generation of Garry's Mod video player addon!
 
 Copyright (c) 2014 Nexus <http://www.nexusbr.net>
 
@@ -23,15 +23,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
 ]]--
 
--- Loading log
-iPlay.loading(" Loader")
-
--- Load vON
-if von == nil then
-  iPlay.lib("von", "sh")
-end
-
--- Load libraries
-iPlay.lib("html", "cl")
-iPlay.lib("htmlcontrols", "cl")
-iPlay.lib("init", "sv")
+-- Force client to download this addon from Workshop
+resource.AddWorkshop("225049978")
