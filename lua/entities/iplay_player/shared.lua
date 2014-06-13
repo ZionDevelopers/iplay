@@ -23,5 +23,21 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
 ]]--
 
--- Force client to download this addon from Workshop
-resource.AddWorkshop("225049978")
+ENT.Type = "anim"
+ENT.Base = "base_anim"
+ 
+ENT.PrintName = "Player"
+ENT.Author = "Nexus"
+ENT.Contact = "http://www.nexusbr.net"
+ENT.Purpose = "Advanced media player"
+ENT.Instructions = "Just spawn"
+ENT.Category = "iPlay"
+
+ENT.WireDebugName = "iPlay Player"
+
+ENT.Spawnable = true
+ENT.AdminSpawnable = true
+
+ENT.RenderGroup = RENDERGROUP_TRANSLUCENT
+
+cleanup.Register("iplay_player")

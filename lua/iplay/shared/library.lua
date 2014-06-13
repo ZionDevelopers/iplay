@@ -12,7 +12,7 @@
                             |  $$$$$$/
                              \______/ 
 
-The next generation of Garry's Mod video player addon! 
+The next generation of Garry's Mod media player addon!  
 
 Copyright (c) 2014 Nexus <http://www.nexusbr.net>
 
@@ -36,6 +36,11 @@ end
 ---@param string text
 ---@return void
 iPlay.loading = function (text)
+  -- Check if iPlay is still loading
+  if iPlay.loadingAddon == false then
+    return
+  end
+  
   -- Set Max Size
   local size = 32
   -- If Text Len < max size
@@ -55,6 +60,9 @@ end
 ---@param string mode
 ---@return void
 iPlay.lib = function(filename, mode)
+  -- Filename Path
+  local filepath = nil
+  
   -- Check library mode
   if mode == "sv" then
     folder = "server"
@@ -66,8 +74,13 @@ iPlay.lib = function(filename, mode)
     return
   end
   
-  -- Format filepath
-  local filepath = "iplay/"..folder.."/"..filename..".lua"
+  if file.Exists("iplay/"..folder.."/"..filename..".lua", "LUA") then
+    -- Format filepath
+    filepath = "iplay/"..folder.."/"..filename..".lua"
+  else
+    -- Format filepath
+    filepath = filename..".lua"
+  end
   
   -- Check if file exists
   if file.Exists(filepath, "LUA") then

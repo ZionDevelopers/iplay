@@ -12,7 +12,7 @@
                             |  $$$$$$/
                              \______/ 
 
-The next generation of Garry's Mod video player addon! 
+The next generation of Garry's Mod media player addon! 
 
 Copyright (c) 2014 Nexus <http://www.nexusbr.net>
 
@@ -26,8 +26,9 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 local started = os.clock()
 
 iPlay = {}
-iPlay.version = "0.0.0"
+iPlay.version = "0.0.0.1"
 iPlay.updatedOn = os.date( "%y-%m-%d %I:%M:%S %p", file.Time( "autorun/iplay_loader.lua", "LUA" ) )
+iPlay.loadingAddon = true
 
 AddCSLuaFile()
 
@@ -58,3 +59,6 @@ include ("iplay/shared/loader.lua")
 
 Msg( "||  Loaded in "..math.Round(os.clock() - started, 2) .. " seconds!         ||\n" )
 Msg( "\\====================================/\n\n" )
+
+-- Disable loading messages
+iPlay.loadingAddon = false

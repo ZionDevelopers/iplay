@@ -12,7 +12,7 @@
                             |  $$$$$$/
                              \______/ 
 
-The next generation of Garry's Mod video player addon! 
+The next generation of Garry's Mod media player addon!  
 
 Copyright (c) 2014 Nexus <http://www.nexusbr.net>
 
