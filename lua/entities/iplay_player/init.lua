@@ -26,8 +26,6 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 iPlay.lib("entities/iplay_player/shared", "sh")
 iPlay.lib("entities/iplay_player/cl_init", "cl")
 
-resource.AddFile("materials/vgui/entities/iplay_player.vmt")
-
 function ENT:Initialize()
     self.Entity:PhysicsInit(SOLID_VPHYSICS)
     self.Entity:SetMoveType(MOVETYPE_VPHYSICS)
