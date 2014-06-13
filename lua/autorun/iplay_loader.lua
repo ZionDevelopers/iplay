@@ -30,7 +30,9 @@ iPlay.version = "0.0.0.2"
 iPlay.updatedOn = os.date( "%y-%m-%d %I:%M:%S %p", file.Time( "autorun/iplay_loader.lua", "LUA" ) )
 iPlay.loadingAddon = true
 
-AddCSLuaFile()
+if SERVER then
+  AddCSLuaFile()
+end
 
 -- "Stole" from wiremod
 if VERSION < 140403 and VERSION > 5 then

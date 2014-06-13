@@ -26,6 +26,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 iPlay.lib("entities/iplay_player/shared", "sh")
 iPlay.lib("entities/iplay_player/cl_init", "cl")
 
+resource.AddFile("materials/vgui/entities/iplay_player.vmt")
 
 function ENT:Initialize()
     self.Entity:PhysicsInit(SOLID_VPHYSICS)
@@ -58,4 +59,4 @@ local function iPlayEntityDuplicator(ply, model, pos, ang)
     return ent
 end
 
-duplicator.RegisterEntityClass("iplay_payer", iPlayEntityDuplicator, "Model", "Pos", "Ang")
+duplicator.RegisterEntityClass("iplay_player", iPlayEntityDuplicator, "Model", "Pos", "Ang")
